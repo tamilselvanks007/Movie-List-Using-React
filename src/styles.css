@@ -1,0 +1,59 @@
+.movie-list {
+  font-family: sans-serif;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+body {
+  background-color: #000;
+}
+
+.movie-name {
+  margin-bottom: 0px;
+  font-size: 24px;
+  font-family: fantasy;
+  font-style: italic;
+}
+
+.movie-name,
+.movie-rating {
+  color: gray;
+  margin-top: 8px;
+}
+
+.movie-pic {
+  height: 500px;
+  width: 340px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.movie-pic:hover {
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
+}
+
+.movie-rating {
+  font-size: 18px;
+  font-family: fantasy;
+  color: white;
+}
+
+.movie-summary {
+  color: white;
+  margin-top: 0px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.movie-specs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.movie-container {
+  width: 340px;
+}
