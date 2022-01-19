@@ -1,2 +1,2 @@
-# Movie-List-Using-React
+# React_Movie_List
 Created with CodeSandbox
